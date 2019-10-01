@@ -2,12 +2,13 @@
 
 using namespace std;
 
+
 int main()
 {
     int i,n,mul;
     mul=1;
     cout<<"Enter number elements in array"<<endl;
-    cin>>n;
+    cin>>n>>endl;
     int a[n];
     for (i=0;i<n;i++)
     {
@@ -19,5 +20,5 @@ int main()
 
         mul*=a[i];
     }
-    cout<<"Multiply of array elements"<<mul;
+    cout<<"Multiply of array elements\n"<<mul;
 }
