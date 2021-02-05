@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//jhdshjd
 int main()
 {
     int a,b,n,c,i;
